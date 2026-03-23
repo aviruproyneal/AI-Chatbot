@@ -14,9 +14,9 @@ st.set_page_config(page_title="AI Study Assistant", page_icon="📚")
 st.title("📚 AI Study Assistant")
 
 st.markdown("""
-Ask questions, upload PDFs, and get clear AI-powered explanations.
+Ask questions, upload PDFs and get clear AI-powered explanations.
 
-Built by **Avirup Roy** using Python and Streamlit.
+Built by Avirup Roy using Python and Streamlit.
 """)
 
 with st.sidebar:
@@ -44,11 +44,13 @@ If the answer is not clearly supported by the PDF, say that clearly.
 Do not pretend the PDF contains information that is not there.
 """
 
-st.markdown("### Try asking:")
-st.write("- Summarize this PDF")
-st.write("- Explain this document simply")
-st.write("- What are the main topics?")
-st.write("- What does this PDF say about recursion?")
+st.markdown("""
+### 💡 Try asking:
+- Summarize this PDF  
+- Explain this document simply  
+- What are the main topics?  
+- What does this PDF say about recursion?  
+""")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 
