@@ -1,12 +1,24 @@
-This is an AI Chatbot built by Avirup Roy.
+# 📚 AI StudyMate
 
-Features:
-• Chatbot with memory
-• PDF upload + analysis
-• Retrieval-based responses (RAG)
+An AI-powered study assistant that can understand and answer questions from uploaded documents.
 
-Tech:
-Python, Streamlit, OpenRouter, DeepSeek
+## 🚀 Features
+- Conversational AI chatbot
+- PDF upload and analysis
+- Context-aware responses
+- Real-time streaming answers
 
-Try it here:
-https://ai-chatbot-aviruproy.streamlit.app/
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- OpenRouter API (DeepSeek)
+- pypdf
+
+## 🌐 Live Demo
+https://aistudymate.streamlit.app/
+
+## 💡 How it works
+This app uses a retrieval-based approach to provide relevant answers from uploaded documents instead of relying only on general knowledge.
+
+## 👨‍💻 Author
+Avirup Roy
