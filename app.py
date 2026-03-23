@@ -10,8 +10,8 @@ client = OpenAI(
 
 MODEL_NAME = "deepseek/deepseek-chat"
 
-st.set_page_config(page_title="AI Study Assistant", page_icon="📚")
-st.title("📚 AI Study Assistant")
+st.set_page_config(page_title="AI StudyMate", page_icon="📚")
+st.title("📚 AI StudyMate")
 
 st.markdown("""
 Ask questions, upload PDFs and get clear AI-powered explanations.
@@ -31,7 +31,7 @@ This app can:
 """)
 
 SYSTEM_PROMPT = """
-You are AI Study Assistant, an AI assistant created by Avirup Roy.
+You are AI StudyMate, an AI assistant created by Avirup Roy.
 
 Your job is to:
 - explain concepts clearly
