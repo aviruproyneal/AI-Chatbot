@@ -46,10 +46,9 @@ Do not pretend the PDF contains information that is not there.
 
 st.markdown("""
 ### 💡 Try asking:
-- Summarize this PDF  
-- Explain this document simply  
-- What are the main topics?  
-- What does this PDF say about recursion?  
+- Summarize this PDF
+- Explain this document simply
+- What are the main topics?
 """)
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
