@@ -1,6 +1,6 @@
 # 📚 AI StudyMate
 
-An AI-powered study assistant that can understand and answer questions from uploaded documents.
+An AI-powered study assistant that can understand and answer questions from uploaded documents. This app uses a retrieval-based approach to provide relevant answers from uploaded documents instead of relying only on general knowledge.
 
 ## 🚀 Features
 - Conversational AI chatbot
@@ -16,9 +16,6 @@ An AI-powered study assistant that can understand and answer questions from uplo
 
 ## 🌐 Live Demo
 https://aistudymate.streamlit.app/
-
-## 💡 How it works
-This app uses a retrieval-based approach to provide relevant answers from uploaded documents instead of relying only on general knowledge.
 
 ## 👨‍💻 Author
 Avirup Roy
